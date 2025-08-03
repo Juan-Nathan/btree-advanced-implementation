@@ -1,0 +1,8 @@
+primesInRange 1 100
+keysInRange 50000000 100000000
+select 7
+select 16
+rank 1234567890
+primesInRange 1 12345678
+keysInRange 1 10
+rank 42
