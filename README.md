@@ -1,6 +1,6 @@
 # 🌳 Advanced B-Tree with Order Statistics and Range Queries
 
-This project implements a powerful and feature-rich **B-Tree** data structure in Python, extending the canonical CLRS version with advanced functionality such as:
+This project implements a powerful and feature-rich **B-Tree** data structure using Python, extending the canonical CLRS version with advanced functionality such as:
 
 - ✅ Efficient **insertion**, **deletion**, and **search**
 - 📊 **Order statistics**: `select(k)` and `rank(x)`
@@ -58,4 +58,5 @@ Each line corresponds to one command from `commands.txt`.
 ## 👤 Author
 
 Developed by Juan Nathan.
+
 
