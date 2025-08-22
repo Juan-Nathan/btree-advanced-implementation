@@ -2,32 +2,32 @@
 
 This project implements a powerful and feature-rich **B-Tree** data structure in Python, extending the canonical CLRS version with advanced functionality such as:
 
-- ✅ Efficient **insertion**, **deletion**, and **search**
-- 📊 **Order statistics**: `select(k)` and `rank(x)`
-- 📈 **Range queries**, including **prime number searches**
-- 🧩 Fully functional **command-line interface (CLI)**
+- Efficient **insertion**, **deletion**, and **search**
+- **Order statistics**: `select(k)` and `rank(x)`
+- **Range queries**, including **prime number searches**
+- Fully functional **command-line interface (CLI)**
 
 The implementation uses **subtree sizes** to support statistical queries and enables fast in-range searches using a traversal-optimized structure.
 
-## ✨ Features
+## Features
 
-- 🔄 **Insert/Delete/Search** in logarithmic time (`O(log n)`)
-- 🏷️ **Order Statistics**:
+- **Insert/Delete/Search** in logarithmic time (`O(log n)`)
+- **Order Statistics**:
   - `select(k)` returns the k-th smallest element
   - `rank(x)` returns the 1-based position of key `x`
-- 📍 **Range Queries**:
+- **Range Queries**:
   - `keys_in_range(min, max)` returns all keys between `min` and `max`
   - `primes_in_range(min, max)` finds all prime numbers in that range
-- 🔐 **No duplicate keys** allowed (enforced automatically)
-- 🧠 Uses **Miller-Rabin Primality Test** (probabilistic, efficient for large integers)
-- 🧪 Built-in CLI support for scripted input/output using text files
+- **No duplicate keys** allowed (enforced automatically)
+- Uses **Miller-Rabin Primality Test** (probabilistic, efficient for large integers)
+- Built-in CLI support for scripted input/output using text files
 
-## ⚠️ Input Constraints
+## Input Constraints
 
 - All keys must be positive integers (≥ 1).
 - Keys must be distinct — duplicates are automatically ignored.
 
-## 🧱 B-Tree Properties
+## B-Tree Properties
 
 - Balanced multi-way tree with minimum degree `t`
 - Maximum keys per node: `2t - 1`
@@ -37,7 +37,7 @@ The implementation uses **subtree sizes** to support statistical queries and ena
 - Leaf nodes contain only keys (no children)
 - Internal nodes maintain subtree sizes for fast rank/select
 
-## 🚀 How to Run
+## How to Run
 
 You can run the B-Tree program directly from the command line using:
 `python btree.py t keystoinsert.txt keystodelete.txt commands.txt`
@@ -48,16 +48,17 @@ Where:
 - `keystodelete.txt` contains keys to delete (one per line)
 - `commands.txt` contains commands to query the tree (see below)
 
-## 📤 Output
+## Output
 
 Results are written to a file named:
 `output.txt`
 
 Each line corresponds to one command from `commands.txt`.
 
-## 👤 Author
+## Author
 
 Developed by Juan Nathan.
+
 
 
 
