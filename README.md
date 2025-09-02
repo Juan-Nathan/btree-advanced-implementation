@@ -2,12 +2,12 @@
 
 This project implements a powerful and feature-rich **B-Tree** data structure in Python, extending the canonical CLRS version with advanced functionality such as:
 
-- Efficient **insertion**, **deletion**, and **search**
-- **Order statistics**: `select(k)` and `rank(x)`
-- **Range queries**, including **prime number searches**
-- Fully functional **command-line interface (CLI)**
+- Efficient insertion, deletion, and search
+- Order statistics
+- Range queries, including prime number searches
+- Fully functional command-line interface (CLI)
 
-The implementation uses **subtree sizes** to support statistical queries and enables fast in-range searches using a traversal-optimized structure.
+The implementation uses subtree sizes to support statistical queries and enables fast in-range searches using a traversal-optimized structure.
 
 ## Features
 
@@ -58,6 +58,7 @@ Each line corresponds to one command from `commands.txt`.
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
