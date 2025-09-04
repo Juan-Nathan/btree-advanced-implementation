@@ -25,7 +25,7 @@ The implementation uses subtree sizes to support statistical queries and enables
 ## Input Constraints
 
 - All keys must be positive integers (≥ 1).
-- Keys must be distinct — duplicates are automatically ignored.
+- Keys must be distinct—duplicates are automatically ignored.
 
 ## B-Tree Properties
 
@@ -58,6 +58,7 @@ Each line corresponds to one command from `commands.txt`.
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
