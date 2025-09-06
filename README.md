@@ -17,9 +17,7 @@ The implementation maintains subtree sizes to support statistical queries and us
   - `rank(x)` returns the 1-based position of key `x`
 - **Range Queries**:
   - `keys_in_range(min, max)` returns all keys between `min` and `max`
-  - `primes_in_range(min, max)` finds all prime numbers in that range
-- **No duplicate keys** allowed (enforced automatically)
-- Uses **Miller-Rabin Primality Test** (probabilistic, efficient for large integers)
+  - `primes_in_range(min, max)` finds all prime numbers in that range using the **Miller-Rabin** primality test
 - Built-in CLI support for scripted input/output using text files
 
 ## Input Constraints
@@ -58,6 +56,7 @@ Each line corresponds to one command from `commands.txt`.
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
