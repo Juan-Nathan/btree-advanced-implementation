@@ -12,7 +12,7 @@ The implementation maintains **subtree sizes** to support **efficient statistica
 
 - **Insert/Delete/Search** in logarithmic time (`O(log n)`)
 - **Order Statistics**:
-  - `select(k)` returns the k-th smallest element
+  - `select(k)` returns the `k`-th smallest element
   - `rank(x)` returns the 1-based position of key `x`
 - **Range Queries**:
   - `keys_in_range(min, max)` returns all keys between `min` and `max`
@@ -55,6 +55,7 @@ Each line corresponds to one command from `commands.txt`.
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
