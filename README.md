@@ -6,7 +6,7 @@ This project implements a powerful and feature-rich **B-Tree** data structure in
 - Range queries
 - Functional command-line interface (CLI)
 
-The implementation maintains subtree sizes to support efficient statistical operations and uses a traversal-optimized structure to enable fast range searches.
+The implementation maintains **subtree sizes** to support **efficient statistical operations** and uses a **traversal-optimized structure** to enable **fast range searches**.
 
 ## Features
 
@@ -26,12 +26,13 @@ The implementation maintains subtree sizes to support efficient statistical oper
 
 ## B-Tree Properties
 
-- Balanced multi-way tree with minimum degree `t`
-- **Keys per node**: at most`2t - 1`, at least `t - 1` for non-root nodes
-- **Children per node**: `len(keys) + 1`
-- **Height of tree**: `O(log n)`, where `n` is the total number of keys
-- **Leaf nodes**: contain only keys (no children)
-- **Internal nodes**: maintain subtree sizes
+In a B-Tree with minimum degree `t`:
+
+- Each node contains at most `2t - 1` keys.
+- Each non-root node contains at least `t - 1` keys.
+- An internal node with `k` keys has exactly `k + 1` children.
+- All leaf nodes appear at the same level (balanced) and have no children.
+- The height of the tree is `O(log n)`, where `n` is the total number of keys.
 
 ## How to Run
 
@@ -54,6 +55,7 @@ Each line corresponds to one command from `commands.txt`.
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
