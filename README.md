@@ -4,10 +4,10 @@ This project implements a powerful and feature-rich **B-Tree** data structure in
 
 - Efficient insertion, deletion, and search
 - Order statistics
-- Range queries, including prime number searches
-- Fully functional command-line interface (CLI)
+- Range queries
+- Functional command-line interface (CLI)
 
-The implementation uses subtree sizes to support statistical queries and enables fast in-range searches using a traversal-optimized structure.
+The implementation maintains subtree sizes to support statistical queries and uses a traversal-optimized structure to enable fast in-range searches.
 
 ## Features
 
@@ -58,6 +58,7 @@ Each line corresponds to one command from `commands.txt`.
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
