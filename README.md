@@ -28,12 +28,11 @@ The implementation maintains subtree sizes to support statistical queries and us
 ## B-Tree Properties
 
 - Balanced multi-way tree with minimum degree `t`
-- Maximum keys per node: `2t - 1`
-- Minimum keys per non-root node: `t - 1`
-- Children per node: `len(keys) + 1`
-- Height of tree: `O(log n)`
-- Leaf nodes contain only keys (no children)
-- Internal nodes maintain subtree sizes for fast rank/select
+- **Keys per node**: at most`2t - 1`, at least `t - 1` for non-root nodes
+- **Children per node**: `len(keys) + 1`
+- **Height of tree**: `O(log n)`, where `n` is the total number of keys
+- **Leaf nodes**: contain only keys (no children)
+- **Internal nodes**: maintain subtree sizes for fast select/rank
 
 ## How to Run
 
@@ -56,6 +55,7 @@ Each line corresponds to one command from `commands.txt`.
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
