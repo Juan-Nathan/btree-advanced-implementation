@@ -40,6 +40,7 @@ You can run the B-Tree program directly from the command line using:
 `python btree.py t keystoinsert.txt keystodelete.txt commands.txt`
 
 Where:
+
 - `t` is the minimum degree of the B-Tree (must be an integer ≥ 2)
 - `keystoinsert.txt` contains positive integers to insert (one per line)
 - `keystodelete.txt` contains keys to delete (one per line)
@@ -55,6 +56,7 @@ Each line corresponds to one command from `commands.txt`.
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
