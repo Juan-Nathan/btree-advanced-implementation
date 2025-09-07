@@ -58,9 +58,8 @@ Supported commands in `commands.txt`:
 
 Results are written to a file named `output.txt`.
 
-Each line corresponds to one command from `commands.txt`.
+Each line contains the output of the corresponding command from `commands.txt`.
 
 ## Author
 
 Developed by Juan Nathan.
-
